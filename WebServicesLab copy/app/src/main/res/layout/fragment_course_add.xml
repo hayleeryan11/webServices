@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.tacoma.uw.css.haylee11.webserviceslab.CourseAddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/enter_course_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        style="@style/CourseIdEditTextStyle"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/course_id" />
+
+    <EditText
+        android:id="@+id/enter_short_desc"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        style="@style/EditTextStyle"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/short_desc" />
+
+    <EditText
+        android:id="@+id/enter_long_desc"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        style="@style/EditTextStyle"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/long_desc" />
+
+    <EditText
+        android:id="@+id/enter_prereq"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        style="@style/PrereqEditTextStyle"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/prereqs" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="16dp"
+        android:text="Add Course"
+        style="@style/ButtonStyle" />
+        <!--android:textColor="@color/uw_button_color" -->
+
+</LinearLayout>
